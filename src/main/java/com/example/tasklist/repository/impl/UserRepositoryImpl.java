@@ -18,7 +18,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.Optional;
-@Repository
+//@Repository
 @RequiredArgsConstructor
 public class UserRepositoryImpl implements UserRepository {
     private static final Logger logger = LoggerFactory.getLogger(UserRepositoryImpl.class);
@@ -75,7 +75,7 @@ public class UserRepositoryImpl implements UserRepository {
             	AND task_id = ?
             )""";
     private final String DELETE = """
-            DELETE FROM users 
+            DELETE FROM users
             WHERE id = ?""";
     @Override
     public Optional<User> findById(Long id) {
