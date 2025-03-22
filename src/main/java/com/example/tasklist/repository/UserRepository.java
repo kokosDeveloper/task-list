@@ -13,7 +13,7 @@ public interface UserRepository {
     Optional<User> findById(Long id);
     Optional<User> findByUsername(String username);
     void update(User user);
-    //БД назначит id, этот id настроится бзеру
+    //БД назначит id, этот id настроится юзеру
     void create(User user);
     //если больше 1 параметра надо указывать Param для ibatis
     void insertUserRole(@Param("userId") Long userId,@Param("role") Role role);

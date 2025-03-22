@@ -3,6 +3,8 @@ package com.example.tasklist.web.mappers;
 import com.example.tasklist.domain.user.User;
 import com.example.tasklist.web.dto.user.UserDto;
 import org.mapstruct.Mapper;
+import org.mapstruct.Mapping;
+
 //чтобы создался бин экземпляра реализации
 @Mapper(componentModel = "spring")
 public interface UserMapper {
