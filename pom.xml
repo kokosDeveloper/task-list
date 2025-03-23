@@ -21,6 +21,8 @@
         <mapstruct.version>1.6.3</mapstruct.version>
         <hibernate-validator.version>9.0.0.CR1</hibernate-validator.version>
         <jakarta-validation.version>3.1.1</jakarta-validation.version>
+        <xml-format.version>3.3.1</xml-format.version>
+        <checkstyle.version>3.3.1</checkstyle.version>
     </properties>
     <dependencies>
         <dependency>
@@ -42,7 +44,6 @@
             <artifactId>spring-boot-starter-security</artifactId>
             <version>3.4.3</version>
         </dependency>
-
 
 
         <dependency>
@@ -153,7 +154,6 @@
             <version>8.5.17</version>
         </dependency>
     </dependencies>
-
 
 
     <build>

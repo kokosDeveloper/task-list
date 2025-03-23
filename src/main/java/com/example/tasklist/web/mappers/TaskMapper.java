@@ -7,5 +7,5 @@ import org.mapstruct.Mapper;
 import java.util.List;
 
 @Mapper(componentModel = "spring")
-public interface TaskMapper extends Mappable<Task, TaskDto>{
+public interface TaskMapper extends Mappable<Task, TaskDto> {
 }

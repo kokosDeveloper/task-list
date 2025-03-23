@@ -7,5 +7,5 @@ import org.mapstruct.Mapping;
 
 //чтобы создался бин экземпляра реализации
 @Mapper(componentModel = "spring")
-public interface UserMapper extends Mappable<User, UserDto>{
+public interface UserMapper extends Mappable<User, UserDto> {
 }
